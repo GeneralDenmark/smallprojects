@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+*.swp
+.#*
+*#
+.*
+venv
+node_modules
+yarn.lock
+*.log
+.mypy_cache
