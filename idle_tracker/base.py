@@ -9,8 +9,8 @@ from utils import setup_logger
 
 class Plugin(object):
     def __init__(self, *args, **kwargs):
-        self.min_idle = self.to_seconds(minutes=5)
-        self.max_idle = self.to_seconds(minutes=10)
+        self.min_idle = self.to_seconds(minutes=1)
+        self.max_idle = self.to_seconds(minutes=9)
         self.verbosity = True
         self.delay = 0
         self.idle_time = idle_time()

@@ -5,12 +5,16 @@ import os
 import logging
 import logging.handlers
 
+ROOTDIR = os.path.abspath(os.path.dirname(__file__))
+
+
 class PluginManagerManager:
     def __init__(self):
         setup_logger('plugin_manager_manager', 'plugin_manager_manager',
                      logging.DEBUG)
         self.logger = logging.getLogger('plugin_manager_manager')
-        self.save_place = os.path.join('savefiles', '_SetupManager.pickle')
+        self.save_place = os.path.join(ROOTDIR, 'savefiles',
+                                       '_SetupManager.pickle')
         self.saved = self.load()
         if not self.saved:
             self.saved = self.default_dict()
@@ -83,7 +87,7 @@ def setup_logger(logger_name, log_file, level=logging.INFO):
     formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     file_handler = logging.handlers.TimedRotatingFileHandler(
-        os.path.join('log', '%s.log' % log_file),
+        os.path.join(ROOTDIR, 'log', '%s.log' % log_file),
         when='midnight', backupCount=5)
     file_handler.setFormatter(formatter)
     stream_handler = logging.StreamHandler()
