@@ -44,7 +44,7 @@ class Plugin(object):
             zenipy.error(title=title, text=message, timeout=expire_time or 0)
 
     def check_run(self):
-        return True #self.max_idle <= self.idle_time >= self.min_idle
+        return self.max_idle <= self.idle_time >= self.min_idle
 
     def check_if_can_run(self, last):
         return last > self.datetime + datetime.timedelta(seconds=self.delay)
