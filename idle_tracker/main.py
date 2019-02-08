@@ -1,10 +1,11 @@
 from pike.manager import PikeManager
-from utils import PluginManagerManager
+from utils import PluginManagerManager, ROOTDIR
+import os
 
 
 def main():
     man = PluginManagerManager()
-    with PikeManager(['plugins']) as mgr:
+    with PikeManager([os.path.join(ROOTDIR, 'plugins')]) as mgr:
         classes = mgr.get_classes()
 
     for cls in classes:

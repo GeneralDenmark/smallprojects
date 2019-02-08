@@ -1,13 +1,17 @@
 from base import Plugin
 from zenipy import question, entry
 
+import datetime
 import os
 
 
 class LockingTool(Plugin):
     def overwrite_base(self):
         self.require_setup = True
-        self.delay = self.to_seconds(minutes=10)
+        self.delay = self.to_seconds(minutes=6)
+
+    def check_if_can_run(self, last):
+        return last + datetime.timedelta(seconds=self.delay) < self.datetime
 
     def setup(self):
         self.logger.info('Initializing setup')

@@ -1,5 +1,7 @@
-xprintidle
-pike
-zenipy
-vext
-vext.gi
+cffi==1.11.5
+pike==0.1.1
+pycparser==2.19
+python-zenity==0.1.3
+ruamel.yaml==0.15.87
+six==1.12.0
+xprintidle==0.2

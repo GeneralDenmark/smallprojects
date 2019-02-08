@@ -1,19 +1,17 @@
 import datetime
-from xprintidle import idle_time
 import zenipy
 import pickle
 import os
 import logging
-from utils import setup_logger
+from utils import setup_logger, IDLETME
 
 
 class Plugin(object):
     def __init__(self, *args, **kwargs):
         self.min_idle = self.to_seconds(minutes=1)
-        self.max_idle = self.to_seconds(minutes=9)
+        self.max_idle = self.to_seconds(minutes=5)
         self.verbosity = True
         self.delay = 0
-        self.idle_time = idle_time()
         self.datetime = datetime.datetime.now()
         self.require_setup = False
         self.save_file_location = os.path.join('savefiles',
@@ -28,9 +26,10 @@ class Plugin(object):
         pass
 
     @staticmethod
-    def to_seconds(seconds=0, minutes=0, hours=0, days=0):
+    def to_seconds(seconds=0, minutes=0, hours=0, days=0, miliseconds=0):
         return datetime.timedelta(
-            days=days, hours=hours, minutes=minutes, seconds=seconds
+            days=days, hours=hours, minutes=minutes, seconds=seconds,
+            milliseconds=miliseconds
         ).total_seconds()
 
     def notify(self, title, message, expire_time=None,
@@ -44,10 +43,7 @@ class Plugin(object):
             zenipy.error(title=title, text=message, timeout=expire_time or 0)
 
     def check_run(self):
-        return self.max_idle <= self.idle_time >= self.min_idle
-
-    def check_if_can_run(self, last):
-        return last > self.datetime + datetime.timedelta(seconds=self.delay)
+        return self.max_idle <= IDLETME >= self.min_idle
 
     def load(self):
         saved = None

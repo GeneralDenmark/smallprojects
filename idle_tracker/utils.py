@@ -3,9 +3,11 @@ import datetime
 import pickle
 import os
 import logging
+from xprintidle import idle_time
 import logging.handlers
 
 ROOTDIR = os.path.abspath(os.path.dirname(__file__))
+IDLETME = datetime.timedelta(milliseconds=idle_time())
 
 
 class PluginManagerManager:
@@ -53,25 +55,33 @@ class PluginManagerManager:
             }
             self.logger.debug('Setup completed for (%s)' % cls.__name__)
             self.save(self.saved)
+        else:
+            self.logger.debug('No setup required.')
 
     def run_plugin(self, cls):
         try:
-            self.logger.debug('Trying to run function "action" in class (%s)'
-                              % cls.__name__)
+
             possible_edit = None
             cls.__init__(cls)
             cls.overwrite_base(cls)
+            self.logger.debug(
+                'Trying to run function "action" in class (%s)'
+                'idle for (%s)'
+                % (cls.__name__, IDLETME))
             self.check_for_setup(cls)
+
             if cls.check_run(cls):
-                self.logger.debug('Running action on class (%s)'
-                                  % cls.__name__)
+
                 possible_edit = cls.action(cls)
+            else:
+                self.logger.debug('Did not run function as it is not time yet')
         except Exception as e:
             import traceback
             self.logger.error('Error in class [%s] -> %s\n%s' % (
                 cls.__name__, e, traceback.format_tb(e.__traceback__)))
             if cls.require_setup and cls.__name__ in self.saved:
                 self.saved[cls.__name__]['failed'] = True
+                self.save(self.saved)
         else:
             if possible_edit:
                 self.logger.debug('Saving changes made for (%s)'
