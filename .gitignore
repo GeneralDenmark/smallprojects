@@ -7,5 +7,5 @@
 venv
 node_modules
 yarn.lock
-*.log
+*.log*
 .mypy_cache
