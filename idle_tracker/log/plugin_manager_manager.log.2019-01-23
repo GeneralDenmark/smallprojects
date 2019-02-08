@@ -1,0 +1,583 @@
+2019-01-23 13:42:57,107 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:42:57,175 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:42:57,176 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 13:42:57,176 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 13:42:57,176 - plugin_manager_manager - ERROR - Error in class [LockingTool]
+check_if_can_run() missing 1 required positional argument: 'last'
+2019-01-23 13:45:55,016 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:45:55,093 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:45:55,094 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 13:45:55,094 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 13:46:47,509 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:46:47,577 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:46:47,578 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 13:46:47,578 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 13:46:47,579 - plugin_manager_manager - ERROR - Error in class [LockingTool] -> check_if_can_run() missing 1 required positional argument: 'last'
+['  File "/home/agw/PycharmProjects/small_projects/idle_tracker/utils.py", line 64, in run_plugin\n    possible_edit = cls.action(cls)\n', '  File "plugins/locking_tool.py", line 41, in action\n    if self.check_if_can_run(saved[\'last_ran\']):\n']
+2019-01-23 13:48:28,400 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:48:28,467 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:48:28,468 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 13:48:28,468 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 13:48:28,469 - plugin_manager_manager - DEBUG - Saving changes made for (LockingTool)
+2019-01-23 13:49:01,014 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:49:01,081 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:49:01,082 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 13:49:19,000 - plugin_manager_manager - DEBUG - Setup completed for (LockingTool)
+2019-01-23 13:49:19,000 - plugin_manager_manager - DEBUG - Saved file correctly
+2019-01-23 13:49:19,001 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 13:49:19,001 - plugin_manager_manager - DEBUG - Saving changes made for (LockingTool)
+2019-01-23 13:49:22,619 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:49:22,693 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:49:22,695 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 13:49:22,695 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 13:49:22,695 - plugin_manager_manager - DEBUG - Saving changes made for (LockingTool)
+2019-01-23 13:49:44,380 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:49:44,445 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:49:44,446 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 13:49:44,447 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 13:58:19,411 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:58:44,254 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 13:58:44,327 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 13:58:44,328 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 14:00:01,389 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:05:01,350 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:10:01,492 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:12:06,363 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:12:06,433 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 14:12:06,434 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 14:12:40,864 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:12:40,932 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 14:12:40,933 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 14:13:22,917 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:13:22,989 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 14:13:22,990 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 14:13:22,990 - plugin_manager_manager - DEBUG - Running action on class (LockingTool)
+2019-01-23 14:13:22,992 - plugin_manager_manager - DEBUG - Saving changes made for (LockingTool)
+2019-01-23 14:15:01,599 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:20:01,813 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:25:01,976 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:30:01,207 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:35:01,734 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:40:01,883 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:45:02,001 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:50:01,195 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 14:55:01,322 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:00:01,478 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:05:01,611 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:10:01,790 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:15:02,008 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:20:01,113 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:25:01,239 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:25:01,320 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 15:25:01,321 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:30:01,426 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:30:01,483 - plugin_manager_manager - DEBUG - Trying to run function "action" in class (LockingTool)
+2019-01-23 15:30:01,484 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:32:01,617 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:32:01,699 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:34:01,885 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:34:01,979 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:36:01,081 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:36:01,137 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:38:01,236 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:38:01,293 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:40:01,395 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:40:01,452 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:42:01,564 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:42:01,622 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:44:01,956 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:44:02,016 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:46:01,130 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:46:01,187 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:48:01,286 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:48:01,340 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:50:01,449 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:50:01,505 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:52:01,650 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:52:01,715 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:54:01,819 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:54:01,874 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:56:01,974 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:56:02,031 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 15:58:01,144 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 15:58:01,199 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:00:01,309 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:00:01,366 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:02:02,022 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:02:02,077 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:04:01,195 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:04:01,249 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:06:01,352 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:06:01,407 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:08:01,509 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:08:01,565 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:10:01,664 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:10:01,726 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:12:01,129 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:12:01,183 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:14:01,278 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:14:01,337 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:16:01,517 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:16:01,576 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:18:01,674 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:18:01,734 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:20:01,829 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:20:01,885 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:22:01,983 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:22:02,039 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:24:01,141 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:24:01,195 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:26:01,295 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:26:01,349 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:28:01,445 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:28:01,502 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:30:01,599 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:30:01,654 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:32:01,763 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:32:01,818 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:34:01,916 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:34:01,973 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:36:01,079 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:36:01,135 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:38:01,229 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:38:01,283 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:40:01,379 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:40:01,436 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:42:01,530 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:42:01,586 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:44:01,680 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:44:01,743 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:46:01,842 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:46:01,897 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:48:01,068 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:48:01,122 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:50:01,222 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:50:01,278 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:52:01,379 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:52:01,435 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:54:01,533 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:54:01,588 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:56:01,686 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:56:01,749 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 16:58:01,843 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 16:58:01,898 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:00:01,996 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:00:02,051 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:02:01,146 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:02:01,200 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:04:01,294 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:04:01,349 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:06:01,446 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:06:01,501 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:08:01,600 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:08:01,656 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:10:01,750 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:10:01,805 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:12:01,899 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:12:01,955 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:14:01,051 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:14:01,105 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:16:01,205 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:16:01,260 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:18:01,358 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:18:01,413 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:20:01,510 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:20:01,573 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:22:01,671 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:22:01,735 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:24:01,833 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:24:01,889 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:26:01,996 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:26:02,052 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:28:01,148 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:28:01,203 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:30:01,299 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:30:01,354 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:32:01,450 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:32:01,505 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:34:01,604 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:34:01,661 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:36:01,762 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:36:01,824 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:38:01,919 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:38:01,978 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:40:01,072 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:40:01,126 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:42:01,223 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:42:01,281 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:44:01,375 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:44:01,429 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:46:01,526 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:46:01,580 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:48:01,676 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:48:01,737 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:50:02,035 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:50:02,089 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:52:01,186 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:52:01,246 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:54:01,342 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:54:01,397 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:56:01,495 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:56:01,549 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 17:58:01,651 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 17:58:01,713 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:00:01,813 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:00:01,869 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:02:01,767 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:02:01,822 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:04:01,919 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:04:01,975 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:06:01,075 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:06:01,129 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:08:01,224 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:08:01,279 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:10:01,406 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:10:01,461 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:12:01,857 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:12:01,911 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:14:02,008 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:14:02,063 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:16:01,161 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:16:01,216 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:18:01,318 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:18:01,380 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:20:01,477 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:20:01,533 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:22:01,757 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:22:01,812 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:24:01,907 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:24:01,963 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:26:01,063 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:26:01,117 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:28:01,215 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:28:01,269 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:30:01,364 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:30:01,419 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:32:01,516 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:32:01,572 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:34:01,672 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:34:01,732 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:36:01,829 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:36:01,886 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:38:01,983 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:38:02,038 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:40:01,135 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:40:01,191 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:42:01,287 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:42:01,341 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:44:01,437 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:44:01,492 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:46:01,593 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:46:01,648 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:48:01,745 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:48:01,800 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:50:01,896 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:50:01,955 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:52:01,053 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:52:01,108 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:54:01,451 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:54:01,506 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:56:01,605 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:56:01,661 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 18:58:01,755 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 18:58:01,809 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:00:01,904 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:00:01,961 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:02:01,058 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:02:01,112 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:04:01,209 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:04:01,264 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:06:01,383 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:06:01,438 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:08:01,619 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:08:01,674 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:10:01,774 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:10:01,828 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:12:01,925 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:12:01,982 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:14:01,137 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:14:01,192 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:16:01,294 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:16:01,353 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:18:01,472 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:18:01,525 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:20:01,630 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:20:01,686 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:22:01,787 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:22:01,842 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:24:01,943 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:24:02,001 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:26:01,164 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:26:01,219 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:28:01,322 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:28:01,377 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:30:01,471 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:30:01,526 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:32:01,621 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:32:01,675 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:34:01,770 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:34:01,825 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:36:01,923 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:36:01,982 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:38:01,079 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:38:01,133 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:40:01,228 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:40:01,288 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:42:01,385 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:42:01,442 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:44:01,547 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:44:01,603 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:46:01,728 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:46:01,783 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:48:01,879 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:48:01,934 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:50:02,030 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:50:02,086 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:52:01,181 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:52:01,236 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:54:01,332 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:54:01,387 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:56:01,496 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:56:01,551 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 19:58:01,972 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 19:58:02,028 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:00:01,234 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:00:01,290 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:02:01,489 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:02:01,550 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:04:01,644 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:04:01,705 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:06:01,812 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:06:01,866 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:08:01,970 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:08:02,025 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:10:01,123 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:10:01,178 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:12:01,582 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:12:01,639 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:14:01,739 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:14:01,794 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:16:01,891 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:16:01,947 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:18:01,045 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:18:01,099 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:20:01,194 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:20:01,249 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:22:01,345 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:22:01,400 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:24:01,511 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:24:01,565 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:26:01,662 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:26:01,722 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:28:01,853 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:28:01,907 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:30:01,263 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:30:01,323 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:32:01,464 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:32:01,519 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:34:01,639 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:34:01,696 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:36:01,795 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:36:01,852 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:38:02,007 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:38:02,062 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:40:01,187 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:40:01,243 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:42:01,337 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:42:01,391 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:44:01,487 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:44:01,541 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:46:01,637 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:46:01,699 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:48:01,796 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:48:01,850 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:50:01,950 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:50:02,006 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:52:01,103 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:52:01,159 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:54:01,254 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:54:01,309 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:56:01,405 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:56:01,461 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 20:58:01,564 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 20:58:01,624 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:00:01,728 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:00:01,789 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:02:01,964 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:02:02,020 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:04:01,119 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:04:01,174 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:06:01,273 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:06:01,327 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:08:01,422 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:08:01,478 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:10:01,574 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:10:01,632 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:12:01,745 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:12:01,800 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:14:01,901 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:14:01,957 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:16:01,057 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:16:01,112 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:18:01,210 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:18:01,263 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:20:01,359 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:20:01,414 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:22:01,509 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:22:01,565 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:24:01,659 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:24:01,729 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:26:01,846 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:26:01,901 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:28:02,000 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:28:02,054 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:30:01,148 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:30:01,203 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:32:01,299 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:32:01,360 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:34:01,661 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:34:01,725 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:36:01,829 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:36:01,883 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:38:01,986 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:38:02,042 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:40:01,137 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:40:01,193 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:42:01,288 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:42:01,345 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:44:01,440 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:44:01,494 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:46:01,595 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:46:01,652 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:48:01,745 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:48:01,800 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:50:01,895 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:50:01,953 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:52:01,047 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:52:01,101 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:54:01,197 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:54:01,252 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:56:01,362 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:56:01,416 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 21:58:01,512 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 21:58:01,566 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:00:01,665 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:00:01,735 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:02:01,353 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:02:01,408 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:04:01,527 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:04:01,581 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:06:01,978 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:06:02,032 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:08:01,136 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:08:01,192 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:10:01,292 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:10:01,349 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:12:01,533 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:12:01,599 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:14:01,697 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:14:01,756 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:16:01,856 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:16:01,910 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:18:02,009 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:18:02,063 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:20:01,157 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:20:01,211 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:22:01,306 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:22:01,362 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:24:01,457 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:24:01,511 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:26:01,613 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:26:01,667 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:28:01,763 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:28:01,819 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:30:01,914 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:30:01,972 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:32:01,067 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:32:01,121 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:34:01,215 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:34:01,270 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:36:01,367 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:36:01,421 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:38:01,647 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:38:01,708 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:40:01,802 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:40:01,856 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:42:01,952 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:42:02,009 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:44:01,105 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:44:01,167 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:46:01,264 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:46:01,318 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:48:01,419 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:48:01,479 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:50:01,574 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:50:01,630 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:52:01,737 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:52:01,791 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:54:01,886 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:54:01,942 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:56:01,043 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:56:01,097 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 22:58:01,193 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 22:58:01,248 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:00:01,343 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:00:01,397 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:02:01,495 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:02:01,549 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:04:01,646 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:04:01,713 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:06:01,810 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:06:01,864 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:08:01,961 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:08:02,015 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:10:01,183 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:10:01,237 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:12:01,333 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:12:01,389 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:14:01,483 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:14:01,538 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:16:01,635 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:16:01,691 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:18:01,791 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:18:01,847 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:20:01,945 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:20:02,001 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:22:01,094 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:22:01,148 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:24:01,244 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:24:01,299 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:26:01,397 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:26:01,451 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:28:01,546 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:28:01,604 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:30:01,704 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:30:01,761 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:32:01,867 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:32:01,922 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:34:02,030 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:34:02,087 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:36:01,186 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:36:01,241 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:38:01,336 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:38:01,392 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:40:01,491 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:40:01,546 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:42:01,735 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:42:01,790 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:44:01,891 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:44:01,945 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:46:01,044 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:46:01,101 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:48:01,196 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:48:01,251 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:50:01,346 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:50:01,401 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:52:01,495 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:52:01,550 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:54:01,645 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:54:01,708 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:56:01,818 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:56:01,877 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
+2019-01-23 23:58:01,974 - plugin_manager_manager - DEBUG - Loaded file correctly
+2019-01-23 23:58:02,030 - plugin_manager_manager - DEBUG - Starting setup sequence for (LockingTool)
